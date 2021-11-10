@@ -58,10 +58,10 @@ elementGenerate.addEventListener('click', function () {
 
 
 //al click cancella tutto
-elementGenerate.addEventListener('click', function () {
+elementCancel.addEventListener('click', function () {
 
     elementFullName.value = ''
-    elementUserAge.value = 'minorenne'
+    elementUserAge.value = 'under18'
     elementKm.value = ''
-    
+    document.getElementById('recap').innerHTML = ''
 })
