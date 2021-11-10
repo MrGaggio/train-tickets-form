@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+
+    <!-- contenitore dei dati -->
+    <div class="data_container">
+        <div class="user_data">
+            <div class="full_name">
+                <label for="full_name">Full Name</label>
+                <input type="text" name="full_name" id="full_name">
+            </div>
+            <div class="km">
+                <label for="km">km</label>
+                <input type="number" name="km" id="km" value="">
+            </div>
+            <div class="user_age">
+                <select name="user_age" id="user_age">
+                    <option value="over65">over65</option>
+                    <option value="over18">over18</option>
+                    <option value="under18">under18</option>
+                </select>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="generate">generate ticket</button>
+            <button id="cancel">cancel</button>
+        </div>
+    </div>
+    <h2 id="recap"></h2>
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
